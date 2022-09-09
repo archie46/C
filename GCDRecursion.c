@@ -7,9 +7,9 @@ int gcd(int a,int b)
 	 	c=b%a;
 	 	if(c!=0)
 	 	{
-	 		b=a;
-	 		a=c;
-	 		gcd(a,b);
+	 	//	b=a;
+	 	//	a=c;
+	 		gcd(a,c);
 	    }
 	    else
 	    {
@@ -21,9 +21,9 @@ int gcd(int a,int b)
 	 		c=a%b;
 	 	if(c!=0)
 	 	{
-	 		a=b;
-	 		b=c;
-	 		gcd(a,b);
+	 	//	a=b;
+	 	//	b=c;
+	 		gcd(b,c);
 	    }
 	    else
 	    {
